@@ -6,12 +6,15 @@ class App extends Component {
 		super(props);
 	};
    
-    render() {
+    renderPara(){
+   return(<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>);
+    };
+	render() {
     	return(
     		<div id="main" classname="container">
 				{ /* Do not remove this main div!! */ }
                 
-	<button id="click" onClick={() => return(<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>);}> Click Me</button>
+	<button id="click" onClick={this.renderPara}> Click Me</button>
     		</div>
     	);
     }
