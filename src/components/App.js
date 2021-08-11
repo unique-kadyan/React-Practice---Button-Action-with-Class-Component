@@ -15,7 +15,7 @@ class App extends Component {
     	return(
     		<div id="main" classname="container">
 				{ /* Do not remove this main div!! */ }
-                <p id="para"></p>
+                
 	<button id="click" onclick={this.paraFunction}> Click Me</button>
     		</div>
     	);
