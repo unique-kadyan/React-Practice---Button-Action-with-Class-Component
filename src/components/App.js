@@ -11,10 +11,10 @@ class App extends Component {
     }
     render() {
     	return(
-    		<div id="main">
+    		<div id="main" classname="container">
 				{ /* Do not remove this main div!! */ }
                 <p id="para"></p>
-	<button id="click" onclick={paraFunction}> Click Me</button>
+	<button id="click" onclick={this.paraFunction}> Click Me</button>
     		</div>
     	);
     }
