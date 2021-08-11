@@ -6,7 +6,9 @@ class App extends Component {
 		super(props);
 	};
     paraFunction(){
-        console.log("Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy");
+        return(
+	<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>	
+	)
 
     }
     render() {
