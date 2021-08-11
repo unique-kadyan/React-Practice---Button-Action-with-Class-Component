@@ -16,7 +16,7 @@ class App extends Component {
     		<div id="main" classname="container">
 				{ /* Do not remove this main div!! */ }
                 
-	<button id="click" onClick={this.renderPara}> Click Me</button>
+	<button  onClick={this.renderPara} id="click"> Click Me</button>
     		</div>
     	);
     }
