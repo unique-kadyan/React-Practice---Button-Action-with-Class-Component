@@ -8,7 +8,7 @@ class App extends Component {
    
     renderPara(){
    return(
-	   <p id="para"> Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy </p>
+	   <p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>
    )
     }
 	render() {
@@ -16,7 +16,7 @@ class App extends Component {
     		<div id="main" classname="container">
 				{ /* Do not remove this main div!! */ }
                 
-	<button  onClick={this.renderPara} id="click"> Click Me</button>
+	<button  onClick={renderPara} id="click"> Click Me</button>
     		</div>
     	);
     }
