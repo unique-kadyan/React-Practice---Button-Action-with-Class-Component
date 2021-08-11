@@ -5,18 +5,13 @@ class App extends Component {
     constructor(props) {
 		super(props);
 	};
-    paraFunction(){
-        return(
-	<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>	
-	)
-
-    }
+   
     render() {
     	return(
     		<div id="main" classname="container">
 				{ /* Do not remove this main div!! */ }
                 
-	<button id="click" onclick={this.paraFunction}> Click Me</button>
+	<button id="click" onClick={() => return(<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>);}> Click Me</button>
     		</div>
     	);
     }
