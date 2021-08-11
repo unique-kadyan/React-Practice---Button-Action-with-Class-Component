@@ -4,6 +4,7 @@ import '../styles/App.css';
 class App extends Component {
     constructor(props) {
 		super(props);
+this.renderPara = this.renderPara.bind(this);
 	};
    
    
