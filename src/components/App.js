@@ -7,8 +7,10 @@ class App extends Component {
 	};
    
     renderPara(){
-   return(<p id="para">Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy</p>);
-    };
+   return(
+	   <p id="para"> Hello, I've learnt to use the full-stack evaluation tool. This makes me so happy </p>
+   )
+    }
 	render() {
     	return(
     		<div id="main" classname="container">
